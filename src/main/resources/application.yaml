@@ -1,3 +1,8 @@
 spring:
   application:
     name: seQWERiTY
+
+logging:
+  level:
+    org.springframework: ${LOG_LEVEL:INFO}
+    by.pochitately.seqwerity: ${LOG_LEVEL:INFO}
