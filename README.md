@@ -1,1 +1,3 @@
 # seQWERiTY
+
+The beginning
