@@ -1,3 +1,3 @@
 # seQWERiTY
 
-The beginning
+The beginning of something
