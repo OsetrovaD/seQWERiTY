@@ -1,6 +1,9 @@
 spring:
   application:
     name: seQWERiTY
+  devtools:
+    livereload:
+      enabled: false
 
 logging:
   level:
