@@ -27,3 +27,6 @@ The compose file will run the following services:
   - port: 27017
   - user: seQWERiTY
   - password: paSSw0rd
+  - database: seQWERiTY
+
+Also, there are files with `-standalone` suffix that will help you if you don't use Docker.
