@@ -1,3 +1,11 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OsetrovaD_seQWERiTY&metric=alert_status)](https://sonarcloud.io/dashboard?id=OsetrovaD_seQWERiTY)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=OsetrovaD_seQWERiTY&metric=bugs)](https://sonarcloud.io/dashboard?id=OsetrovaD_seQWERiTY)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=OsetrovaD_seQWERiTY&metric=code_smells)](https://sonarcloud.io/dashboard?id=OsetrovaD_seQWERiTY)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=OsetrovaD_seQWERiTY&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=OsetrovaD_seQWERiTY)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=OsetrovaD_seQWERiTY&metric=ncloc)](https://sonarcloud.io/dashboard?id=OsetrovaD_seQWERiTY)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=OsetrovaD_seQWERiTY&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=OsetrovaD_seQWERiTY)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=OsetrovaD_seQWERiTY&metric=security_rating)](https://sonarcloud.io/dashboard?id=OsetrovaD_seQWERiTY)
+
 # seQWERiTY
 
 The beginning of something
