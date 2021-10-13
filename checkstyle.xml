@@ -119,8 +119,8 @@
 
         <module name="AvoidDoubleBraceInitialization"/>
         <module name="AvoidNoArgumentSuperConstructorCall"/>
-        <module name="NoEnumTrailingComma"/>
         <module name="UnnecessarySemicolonAfterOuterTypeDeclaration"/>
         <module name="NoCodeInFile"/>
+        <module name="NoWhitespaceBeforeCaseDefaultColon"/>
     </module>
 </module>
