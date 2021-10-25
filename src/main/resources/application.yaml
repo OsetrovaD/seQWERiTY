@@ -7,8 +7,14 @@ spring:
   data:
     mongodb:
       uri: mongodb://seQWERiTY:paSSw0rd@${MONGODB_HOST:localhost}:${MONGODB_PORT:27017}/seQWERiTY
+  jackson:
+    default-property-inclusion: non_empty
 
 logging:
   level:
     org.springframework: ${LOG_LEVEL:INFO}
     by.pochitately.seqwerity: ${LOG_LEVEL:INFO}
+
+server:
+  servlet:
+    context-path: /api
