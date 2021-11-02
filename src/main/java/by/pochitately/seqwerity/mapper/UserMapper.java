@@ -7,5 +7,5 @@ import org.mapstruct.Mapper;
 import org.mapstruct.NullValuePropertyMappingStrategy;
 
 @Mapper(componentModel = "spring", nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
-public abstract class UserMapper implements BaseMapper<User, UserRequest, UserResponse> {
+public interface UserMapper extends BaseMapper<User, UserRequest, UserResponse> {
 }
