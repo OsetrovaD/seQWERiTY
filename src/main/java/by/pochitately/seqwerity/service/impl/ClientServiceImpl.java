@@ -48,7 +48,7 @@ public class ClientServiceImpl implements ClientService {
         try {
             random = SecureRandom.getInstanceStrong();
         } catch (NoSuchAlgorithmException e) {
-            throw new RuntimeException("No strong SecureRandom instance available to generate strong secret", e);
+            throw new RuntimeException("No strong SecureRandom instance available to generate strong secret", e); // NOSONAR using Runtime until Exception Handling is implemented
         }
 
         byte[] bytes = new byte[32];
