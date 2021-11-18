@@ -1,3 +1,8 @@
+server:
+  servlet:
+    context-path: /api
+  port: 9090
+
 spring:
   application:
     name: seQWERiTY
@@ -14,7 +19,3 @@ logging:
   level:
     org.springframework: ${LOG_LEVEL:INFO}
     by.pochitately.seqwerity: ${LOG_LEVEL:INFO}
-
-server:
-  servlet:
-    context-path: /api
