@@ -2,6 +2,7 @@ package by.pochitately.seqwerity.service.impl;
 
 import by.pochitately.seqwerity.dto.request.ClientRequest;
 import by.pochitately.seqwerity.dto.response.ClientResponse;
+import by.pochitately.seqwerity.exception.GenericException;
 import by.pochitately.seqwerity.mapper.ClientMapper;
 import by.pochitately.seqwerity.model.Client;
 import by.pochitately.seqwerity.repository.ClientRepository;
@@ -48,7 +49,7 @@ public class ClientServiceImpl implements ClientService {
         try {
             random = SecureRandom.getInstanceStrong();
         } catch (NoSuchAlgorithmException e) {
-            throw new RuntimeException("No strong SecureRandom instance available to generate strong secret", e); // NOSONAR using Runtime until Exception Handling is implemented
+            throw new GenericException("No strong SecureRandom instance available to generate strong secret", e);
         }
 
         byte[] bytes = new byte[32];
